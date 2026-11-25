@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 40px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #eef1f4;
+    color: #333;
+}
+
+main {
+    max-width: 380px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 30px 35px 35px;
+    border-radius: 6px;
+    border: 1px solid #d5d9dd;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+    margin: 0 0 25px;
+    font-size: 26px;
+    font-weight: normal;
+    color: #444;
+    text-align: center;
+}
+
+h2 {
+    margin: 0 0 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #555;
+    border-bottom: 2px solid #3a7bd5;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+form p {
+    margin: 0 0 16px;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 9px 10px;
+    font-size: 14px;
+    border: 1px solid #c3c8cd;
+    border-radius: 3px;
+    background: #fafbfc;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border-color: #3a7bd5;
+    background: #fff;
+}
+
+input[type="checkbox"] {
+    margin-right: 6px;
+    vertical-align: middle;
+}
+
+form p label:has(input[type="checkbox"]) {
+    display: inline-block;
+    font-size: 13px;
+    color: #666;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 11px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    background: #3a7bd5;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+button[type="submit"]:hover {
+    background: #2f65b0;
+}
+
+form p:last-of-type,
+form p:nth-last-of-type(2) {
+    text-align: center;
+    margin: 12px 0 0;
+    font-size: 13px;
+}
+
+a {
+    color: #3a7bd5;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
